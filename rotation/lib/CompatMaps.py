@@ -4,9 +4,7 @@ Python module to make corrections and conversions from wrong formatted
 HMI fits files
 """
 
-import astropy.wcs.utils
 from astropy.wcs import WCSSUB_CELESTIAL
-
 from lib.SineHGC import SineHGC
 
 def sinehpc_wcs_frame_mapping(wcs):
